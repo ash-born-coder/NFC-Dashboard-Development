@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFC Dashboard</title>
+
+    <!-- Montserrat Font -->
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Material Icons -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header-grid-container">
+        <header class="header"> 
+            <img src="images/Neues_Fliegen_Logo.webp" alt=" Neues_Fliegen_Logo "height="50"> 
+            TELEMETRY 
+        </header>
+    
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main-container">
+        <div class="main-title">
+            <h2>Dashboard</h2>
+        </div>
+
+            <div class="main-graphs">
+
+                <div class="graphs">
+                    <h3>Speed vs Time</h3>
+                    <canvas id="stGraph" width="400" height="200"></canvas>
+                </div>
+
+                <div class="graphs">
+                    <h3>Altitude</h3>
+                </div>
+                
+            </div>
+        
+    </main> 
+   <!-- End Main --> 
+    
+   </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
